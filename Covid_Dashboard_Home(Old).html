@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+        integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <title>COVID-19 Dashboard</title>
+</head>
+
+<body class="container">
+    <h1 class="text-center d-none d-md-block"></h1>
+    <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand" href="#"><h4>COVID-19 Dashboard</h4></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Covid_Dashboard_Home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Covid_Dashboard_US.html">United States</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Covid_Dashboard_Global.html">Global</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class = "border-bottom mb-3">
+      <h3>COVID Information Hub</h3>
+    </div>
+    <p>
+    Our goal in this project is to determine clinical factors of a poor prognosis in patients with COVID-19 infection. We will examine  medical records of patients with COVID-19 infections confirmed by polymerase chain reaction (PCR). Logistic multivariate regression models adjusted for age and sex will be constructed to analyze independent predictive factors associated with death, ICU admission and hospitalization of these patients.
+    </p>
+    <h5>
+      Data set sources:
+    </h5>
+    <p>
+      <li>
+          OWID: <a href = "https://github.com/owid/covid-19-data/blob/master/public/data/README.md">https://github.com/owid/covid-19-data/blob/master/public/data/README.md</a>
+      </li>
+      <li>
+          NYT: <a href = "https://github.com/nytimes/covid-19-data/blob/master/us-counties-recent.csv">https://github.com/nytimes/covid-19-data/blob/master/us-counties-recent.csv</a>
+      </li>
+      <li>
+          WHO: <a href = "https://data.humdata.org/dataset/coronavirus-covid-19-cases-and-deaths">https://data.humdata.org/dataset/coronavirus-covid-19-cases-and-deaths</a>
+      </li>
+      <li>
+          GISAID: <a href = "https://www.kaggle.com/priteshraj10/world-covid-varients">https://www.kaggle.com/priteshraj10/world-covid-varients</a>
+      </li>
+      <li>
+          CAGOV: <a href = "https://data.ca.gov/dataset/covid-19-post-vaccination-infection-data">https://data.ca.gov/dataset/covid-19-post-vaccination-infection-data</a>
+      </li>
+      <li>
+          Worldmeter: <a href = "https://www.kaggle.com/tanuprabhu/population-by-country-2020">https://www.kaggle.com/tanuprabhu/population-by-country-2020</a>
+      </li>
+      <li>
+          USCENSUS: <a href = "https://www.census.gov/">https://www.census.gov/</a>
+      </li>
+      <li>
+          KFF: <a href = "https://www.kff.org/other/state-indicator/covid-19-cases-by-race-ethnicity/?currentTimeframe=0&sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D">https://www.kff.org/other/state-indicator/covid-19-cases-by-race-ethnicity/?currentTimeframe=0&sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D</a>
+      </li>
+    </p>
+
+    <h5>
+      Future COVID related graphs:
+    </h5>
+    <p>
+      <li>
+        Underlying diseases
+      </li>
+      <li>
+        Blood type
+      </li>
+      <li>
+        COVID variants
+      </li>
+      <li>
+        COVID patients after recovery
+      </li>
+      <li>
+        Vaccinated COVID patients
+      </li>
+      <li>
+        Season/Temperature
+      </li>
+    </p>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"
+        integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
